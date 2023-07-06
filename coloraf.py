@@ -25,5 +25,5 @@ def coloraf(selection="all"):
     cmd.color("orange", f"({selection}) and b < 50")
 
 
-cmd.extend("coloraf", coloraf)
+cmd.extend("plddt", coloraf)
 cmd.auto_arg[0]["coloraf"] = [cmd.object_sc, "object", ""]
